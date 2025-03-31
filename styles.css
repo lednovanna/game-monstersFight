@@ -35,6 +35,15 @@ button {
     transition: width 0.5s ease;
 }
 
-.monster-health {
-    background: #E53935; 
+
+
+#playerName{
+    
+color: #4CAF50;
+    
+}
+
+#monsterName {
+    
+    color: #FF0000;
 }
