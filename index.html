@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Game: Monsters fight</h1>
+
+    <div id="playerInfo">
+        <h2 id="playerName"></h2>
+        <progress id="playerHealth" value="100" max="100"></progress>
+    </div>
+    
+    <div id="monsterInfo">
+        <h2 id="monsterName"></h2>
+        <progress id="monsterHealth" value="100" max="100"></progress>
+    </div>
+
+    <button id="attackBtn">⚔️ Attack</button>
+    <button id="healBtn">💊 Cure</button>
+    <button id="inventoryBtn">📦 Implements</button>
+
+    <div id="gameLog"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
